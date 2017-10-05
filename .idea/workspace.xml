@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b39fd1f-476d-4c4b-b247-31d8374f620e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bash/aliases" afterPath="$PROJECT_DIR$/bash/aliases" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bash/env" afterPath="$PROJECT_DIR$/bash/env" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="aliases" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bash/aliases">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+            <state relative-caret-position="738">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -27,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/bash/config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -36,8 +37,8 @@
       <file leaf-file-name="env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bash/env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -62,6 +63,7 @@
       <find>zshrc</find>
       <find>vcprompt</find>
       <find>/bin/</find>
+      <find>dotfiles</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -76,8 +78,8 @@
         <option value="$PROJECT_DIR$/shell/bash_prompt" />
         <option value="$PROJECT_DIR$/shell/bash_profile" />
         <option value="$PROJECT_DIR$/bashrc" />
-        <option value="$PROJECT_DIR$/bash/env" />
         <option value="$PROJECT_DIR$/bash/config" />
+        <option value="$PROJECT_DIR$/bash/env" />
         <option value="$PROJECT_DIR$/bash/aliases" />
       </list>
     </option>
@@ -126,11 +128,6 @@
             </path>
             <path>
               <item name="dotfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dotfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dotfiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -173,12 +170,12 @@
       <updated>1507208942354</updated>
       <workItem from="1507208943545" duration="310000" />
       <workItem from="1507209298566" duration="1112000" />
-      <workItem from="1507211958381" duration="1022000" />
+      <workItem from="1507211958381" duration="1796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2444000" />
+    <option name="totallyTimeSpent" value="3218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="659" y="-1052" width="1754" height="959" extended-state="0" />
@@ -258,10 +255,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bash/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bash/env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -274,18 +279,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bash/aliases">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        <state relative-caret-position="738">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>

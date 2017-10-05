@@ -2,3 +2,6 @@
 
 # Set PATH, CDPATH, EDITOR, etc.
 export PATH=$PATH:/usr/local/bin
+
+# Load rbenv automatically
+eval "$(rbenv init -)"
