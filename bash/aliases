@@ -74,6 +74,10 @@ alias gp='git push'
 alias gst='git status'
 alias gt='git status'
 alias g='git '
+
+# Docker
+alias dc='docker-compose'
+
 # Text editing
 
 
