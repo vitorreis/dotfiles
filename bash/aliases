@@ -49,12 +49,6 @@ alias ff='open -a Firefox'
 alias tu='top -o cpu' # cpu
 alias tm='top -o vsize' # memory
 
-# Mercurial hg
-function new-hg() {
-    ssh hg@example.com "hg init $1"
-    hg clone ssh://hg@example.com/$1
-}
-
 # Git
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gb='git branch'
@@ -73,6 +67,7 @@ alias gnp="git-notpushed"
 alias gp='git push'
 alias gst='git status'
 alias gt='git status'
+alias gs='git status'
 alias g='git '
 
 # Docker
