@@ -9,8 +9,8 @@ alias la="ls -A -l -G"
 alias c='clear'
 alias cdd='cd -'  # goto last dir cd'ed from
 alias cl='clear; l'
-function cdc() { 
-    cd $1; ls 
+function cdc() {
+    cd $1; ls
 }
 alias cls='clear; ls'
 alias h='history'
@@ -23,15 +23,15 @@ alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
 alias s='cd ..'   # up one dir
 
-function take() { 
+function take() {
     mkdir -p "$1"
-    cd "$1" 
+    cd "$1"
 }
 
 alias e='exit'
 alias k9="killall -9"
-function killnamed () { 
-    ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill 
+function killnamed () {
+    ps ax | grep $1 | cut -d ' ' -f 2 | xargs kill
 }
 function zipr() {
   zip -r $1.zip $1
@@ -51,10 +51,12 @@ alias g='git'
 alias dc='docker-compose'
 
 # Kubernetes
-alias kube-stg="kubectl --kubeconfig  ~/.kube/kubernetes-staging/kubeconfig"
-alias kube-eu="kubectl --kubeconfig  ~/.kube/kubernetes-prod-eu/kubeconfig"
-alias kube-ap="kubectl --kubeconfig  ~/.kube/kubernetes-prod-ap/kubeconfig"
-alias kube-us="kubectl --kubeconfig  ~/.kube/kubernetes-prod-us/kubeconfig"
+alias kube-stg="kubectl --kubeconfig  ${HOME}/.kube_tool/staging"
+alias kube-st="kubectl --kubeconfig  ${HOME}/.kube_tool/staging"
+alias kube-eu="kubectl --kubeconfig  ${HOME}/.kube_tool/production-eu"
+alias kube-ap="kubectl --kubeconfig  ${HOME}/.kube_tool/production-ap"
+alias kube-us="kubectl --kubeconfig  ${HOME}/.kube_tool/production-us"
+alias kube-qa="kubectl --kubeconfig  ${HOME}/.kube_tool/qa"
 
 # Ruby
 alias r="rake"
