@@ -1,5 +1,5 @@
 # Set PATH, CDPATH, EDITOR, etc.
-export PATH="$PATH:/usr/local/bin:$HOME/gem/bin"
+export PATH="$PATH:/usr/local/bin:$HOME/gem/bin:$HOME/Library/Android/sdk/platform-tools"
 
 # ruby
 export GEM_HOME=$HOME/.gem
