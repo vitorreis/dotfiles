@@ -1,6 +1,6 @@
 [user]
-	name = Vitor Reis
-	email = vitor.reis@foodora.co
+        name = Vitor Reis
+        email = vitor.reis7@gmail.com
 [alias]
         # Staging
         a = add
@@ -57,8 +57,8 @@
         stp = stash pop
 
         # Status/Logging
-	s = status
-#        ss = status -sb
+        s = status
+        ss = status -sb
         hist = log --graph --pretty=custom           # Show custom graph
         l = log --pretty=custom                      # Show custom log
         ll = log --stat --abbrev-commit
@@ -211,4 +211,4 @@
 
 [help]
         # Correct typos
-        autocorrect = 1m
+        autocorrect = 1
