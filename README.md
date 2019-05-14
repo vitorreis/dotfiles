@@ -31,3 +31,8 @@ ZSH_THEME="agnoster"
 Iterm2 config:
 Font: Meslo LG M DZ Regular
 Color Preset: solarized dark
+
+Restore the git config
+````
+cp git/.gitconfig ~
+```
