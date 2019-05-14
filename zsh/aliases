@@ -1,7 +1,7 @@
 # Command Enhancements
 
 # Utility
-alias reload='source ~/dotfiles/bash/aliases'
+alias reload='source ~/workspace/dotfiles/bash/aliases'
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
