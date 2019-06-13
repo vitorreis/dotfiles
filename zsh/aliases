@@ -1,7 +1,7 @@
 # Command Enhancements
 
 # Utility
-alias reload='source ~/workspace/dotfiles/bash/aliases'
+alias reload='source ~/workspace/dotfiles/zsh/aliases'
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -59,3 +59,6 @@ alias kube-qa="kubectl --kubeconfig  ${HOME}/.kube_tool/qa"
 
 # Ruby
 alias r="rake"
+
+#logistics stuff
+alias arol="~/workspace/logistics-infra-tools/Security-Login/assume_role_onelogin.sh"
