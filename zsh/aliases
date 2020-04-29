@@ -55,10 +55,12 @@ alias kube-st="kubectl --kubeconfig  ${HOME}/.kube_tool/staging"
 alias kube-eu="kubectl --kubeconfig  ${HOME}/.kube_tool/production-eu"
 alias kube-ap="kubectl --kubeconfig  ${HOME}/.kube_tool/production-ap"
 alias kube-us="kubectl --kubeconfig  ${HOME}/.kube_tool/production-us"
+alias kube-kr="kubectl --kubeconfig  ${HOME}/.kube_tool/production-kr-ap"
 alias kube-qa="kubectl --kubeconfig  ${HOME}/.kube_tool/qa"
+alias kube-lt="kubectl --kubeconfig  ${HOME}/.kube_tool/load-tests"
 
 # Ruby
 alias r="rake"
 
 #logistics stuff
-alias arol="~/workspace/logistics-infra-tools/Security-Login/assume_role_onelogin.sh"
+alias ol="onelogin-darwin"
